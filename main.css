@@ -1,4 +1,39 @@
 body{
-  background: azure;
   font-family: monospace;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+h1{
+  height: 2em;
+  width: 2em;
+  background: darkslategrey;
+  color: white;
+  border-radius: 50%;
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1em;
+  border: 5px double white;
+}
+a{
+  text-decoration: none;
+  color: darkslategrey;
+}
+.btnGroup{
+  width: 70vw;
+  height: 50vh;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+}
+.btn{
+  width: 70vw;
+  background: transparent;
+  color: darkslategrey;
+  border: 5px double darkslategrey;
 }
